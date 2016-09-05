@@ -1,0 +1,50 @@
+{
+  "name": "jacu",
+  "version": "1.0.0",
+  "description": "A tool for versioning database seed files",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run lint && npm run mocha",
+    "coveralls": "istanbul cover ./node_modules/mocha/bin/_mocha -- --opts mocha.opts --report lcovonly && cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js && rm -rf ./coverage",
+    "coverage": "istanbul cover ./node_modules/.bin/_mocha -- --opts mocha.opts",
+    "mocha": "./node_modules/.bin/_mocha --opts mocha.opts",
+    "lint": "eslint ./lib/**/*.js ./test/**/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brenolf/jacu.git"
+  },
+  "keywords": [
+    "knex",
+    "database",
+    "seeds",
+    "seed",
+    "migration"
+  ],
+  "author": "Breno Lima de Freitas <brenolimadefreitas@gmail.com> (https://breno.io/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/brenolf/jacu/issues"
+  },
+  "homepage": "https://github.com/brenolf/jacu#readme",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "coveralls": "^2.11.12",
+    "eslint": "^3.4.0",
+    "istanbul": "^0.4.5",
+    "mocha": "^3.0.2",
+    "mocha-lcov-reporter": "^1.2.0",
+    "rewire": "^2.5.2",
+    "sinon": "^1.17.5",
+    "sinon-as-promised": "^4.0.2",
+    "sinon-chai": "^2.8.0",
+    "sinon-chai-in-order": "^0.1.0"
+  },
+  "dependencies": {
+    "bluebird": "^3.4.6",
+    "fs-extra": "^0.30.0",
+    "knex": "^0.11.10",
+    "sinon-chai-in-order": "^0.1.0",
+    "yargs": "^5.0.0"
+  }
+}

@@ -94,7 +94,7 @@ To run your sets of seeds simply run
 $ jacu run
 ```
 
-Jacu will automatically identify which seeds were not run before and will add them to the database. All seeds run together will count towards a same batch number.
+Jacu will automatically identify which seeds were not run given the current `NODE_ENV` environment, and then will add them to the database. All seeds run together will count towards a same batch number.
 
 ### Rolling back
 

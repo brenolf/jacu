@@ -106,5 +106,9 @@ $ jacu rollback
 
 Note that this command will erase **every** tuple present in the last batch. Also, in order to rollback to work properly, the the set of the attributes defined in the seed must be a [superkey](https://en.wikipedia.org/wiki/Superkey) of the model and must contain only immutable data.
 
+## Trivia
+
+Jacu is the name of [a bird](https://en.wikipedia.org/wiki/Rusty-margined_guan) that lives in South America and eats coffee seeds.
+
 ## License
 MIT

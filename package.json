@@ -10,6 +10,9 @@
     "mocha": "./node_modules/.bin/_mocha --opts mocha.opts",
     "lint": "eslint ./lib/**/*.js ./test/**/*.js"
   },
+  "bin": {
+    "jacu": "./lib/bin.js"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/brenolf/jacu.git"

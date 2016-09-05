@@ -1,11 +1,11 @@
+---
 engines:
-  fixme:
-    enabled: true
   eslint:
+    enabled: true
+  fixme:
     enabled: true
 ratings:
   paths:
-  - lib/**/*.js"
-  - test/**/*.js"
+  - "**.js"
 exclude_paths:
 - test/**/*

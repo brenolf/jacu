@@ -17,7 +17,7 @@ Jacu is a tool aimed to provide versioning for seed files, much like as migratio
 The primary target environment for Jacu is Node.js, you will need to install the jacu library, and then install the appropriate database library: pg for PostgreSQL, mysql for MySQL or MariaDB, sqlite3 for SQLite3, or mssql for MSSQL.
 
 ```sh
-$ npm install -g jacu
+$ npm install jacu --save
 
 # Then add one of the following (adding a --save) flag:
 $ npm install pg

@@ -7,7 +7,7 @@
 [![Build Status](https://travis-ci.org/brenolf/jacu.svg)](https://travis-ci.org/brenolf/jacu)
 [![Coverage Status](https://coveralls.io/repos/github/brenolf/jacu/badge.svg?branch=master)](https://coveralls.io/github/brenolf/jacu?branch=master)
 [![Code Climate](https://codeclimate.com/github/brenolf/jacu/badges/gpa.svg)](https://codeclimate.com/github/brenolf/jacu)
-[![npm version](https://badge.fury.io/js/jacu.svg)](http://badge.fury.io/js/jacu)
+[![npm version](https://badge.fury.io/js/jacu.svg)](https://badge.fury.io/js/jacu)
 > A tool for versioning database seed files
 
 Jacu is a tool aimed to provide versioning for seed files, much like as migrations do it for versioning schemas. Sometimes you find yourself in trouble when running your seeds because most tools do not provide a temporal seed creation and running - Jacu comes for the rescue!
